@@ -37,6 +37,8 @@ int main()
     maiorsalario(funcionarios, qtd);
 }
 
+
+//funcao que faz a media do salario dos funcionarios da empresa.
 float mediafunc(DADOS funcionarios[2000], int qtd)
 {
     float somatorio = 0;
@@ -48,6 +50,7 @@ float mediafunc(DADOS funcionarios[2000], int qtd)
     return media;
 }
 
+//funcao que descobre a matricula e o salario dos funcionarios cujo salario eh maior que a media salarial.
 void maiorquemedia(DADOS funcionarios[2000], int qtd, float mediafuncionarios)
 {
     cout << "Salarios acima da media: " << endl;
@@ -60,7 +63,7 @@ void maiorquemedia(DADOS funcionarios[2000], int qtd, float mediafuncionarios)
         }  
     }
 }
-
+//funcao que acha o(s) maior(es) salario(s) da empresa.
 void maiorsalario(DADOS funcionarios[2000] , int qtd)
 {
     float maior = 0;
